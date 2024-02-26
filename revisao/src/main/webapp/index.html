@@ -11,27 +11,43 @@
         <h1>Calcular</h1>
     </div>
     <div class="body">
-        <form action="">
+        <form action="/primeiro" method="GET">
             <fieldset>
-                <legend>Calculadora</legend>
+                <legend>Calculadora Sem Ajax</legend>
                 <div class="form">
                     <div class="row">
-                        <label for="">A</label>
+                        <label for="" name="cpValor1">Valor 1</label>
                         <input type="text">
-                        <label for="">A</label>
+                        <label for="" name="cpValor2">Valor 2</label>
                         <input type="text">
                         <label for="">
-                            <button>OK</button>
+                            <button name="btn" value="+">+</button>
+                            <button name="btn" value="-">-</button>
+<!--                            <button name="btn">OK</button>-->
                         </label>
-                </div>
-            </fieldset>
+                </div></div></fieldset>
         </form>
+        <form  method="GET">
+            <fieldset>
+                <legend>Calculadora Com Ajax</legend>
+                <div class="form">
+                    <div class="row ajax">
+                        <label for="" name="cpValor1">Valor 1</label>
+                        <input type="text">
+                        <label for="" name="cpValor2">Valor 2</label>
+                        <input type="text">
+                        <label for="">
+                            <button name="btn" value="+">+</button>
+                            <button name="btn" value="-">-</button>
+                        </label>
+                    </div></div></fieldset></form>
     </div>
     <div class="footer">
         <h2>footer</h2>
     </div>
 </div>
 
-<script src="js/script.js"></script>
+<!--<script src="js/script.js"></script>-->
+<script src="js/ajax.js"></script>
 </body>
 </html>
