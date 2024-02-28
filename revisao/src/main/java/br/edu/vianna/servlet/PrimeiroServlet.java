@@ -22,7 +22,7 @@ public class PrimeiroServlet extends HttpServlet {
         try {
             String v1 = req.getParameter("cpValor1");
             String v2 = req.getParameter("cpValor2");
-            String btn = req.getParameter("bnt");
+            String btn = req.getParameter("btn");
 
             Calculadora c = new Calculadora();
             c.setValor1(Integer.parseInt(v1));
@@ -39,15 +39,24 @@ public class PrimeiroServlet extends HttpServlet {
                     "</head>\n" +
                     "<body>\n" +
                     "<div class=\"container\">\n" +
-                    "<h1> O resultado eh :" + c.operacao() + "</h1>"  +
+                    "    <div class=\"header\">\n" +
+                    "        <h1>Calcular</h1>\n" +
+                    "    </div>\n" +
+                    "    <div class=\"body\">\n" +
+
+                    " <h1>O resultado é "+c.operacao()+"</h1> " +
+
+                    "    </div>\n" +
+                    "\n" +
                     "    <div class=\"footer\">\n" +
                     "        <h2>footer</h2>\n" +
                     "    </div>\n" +
                     "</div>\n" +
-                    "\n" +
-                    "<script src=\"js/script.js\"></script>\n" +
+                    "    <script src= \"./script.js\"></script>\n" +
                     "</body>\n" +
-                    "</html>";
+                    "\n" +
+                    "\n" +
+                    "</html>\n";
             resp.getWriter().println(html);
         } catch (IOException e) {
             System.out.println("deu ruim");

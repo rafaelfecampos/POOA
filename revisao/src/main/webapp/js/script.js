@@ -11,7 +11,7 @@ const fnt = ()=>{
 campos.forEach(i => i.change = fnt);
 
 //btn.style.display = 'none';
-//btn.style.visibility = 'hidden';
+btn.style.visibility = 'hidden';
 console.log(btn);
 console.log(campos);
 
