@@ -15,9 +15,10 @@
     <div class="container">
         <fieldset>
             <legend>Login</legend>
-            <form action="home.jsp" method="post">
-                Email:<input type="text" size="30"><br>
-                Senha:<input type="password" size="30"><br>
+            <form action="/home" method="post">
+                <input type="hidden" value="verify" name="ac">
+                <input type="text" placeholder="Email" size="30" name="cpLogin"><br>
+                <input type="password" placeholder="Senha" size="30" name="cpSenha"><br>
                 <input type="submit" value="Entrar">
             </form>
         </fieldset>
