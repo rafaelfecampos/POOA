@@ -1,5 +1,6 @@
 package br.edu.vianna.game.controller;
 
+import br.edu.vianna.game.model.Usuario;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -32,10 +33,12 @@ public class HomeController extends HttpServlet {
         }else if (ac.equals("ajuda")){
             rd = req.getRequestDispatcher("home.jsp");
         }else if (ac.equals("verify")){
-            String login = req.getParameter("cpLogin");
-            String senha = req.getParameter("cpSenha");
+            Usuario user = new Usuario(req.getParameter("cpLogin"),req.getParameter("cpSenha"));
 
-            if (login.equals("admin") && senha.equals("123")){
+//            String login = req.getParameter("cpLogin");
+//            String senha = req.getParameter("cpSenha");
+
+            if (user.ehValido()){
                 rd = req.getRequestDispatcher("homeLogado.jsp");
             }else{
                 req.setAttribute("msg", "Login ou senha incorreto!");

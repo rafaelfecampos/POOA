@@ -1,0 +1,6 @@
+mvc é uma padronização onde divide o sistema em model, controller e views
+
+model -> classes
+controller -> servletsn (as regras de negocio ficam no controler ex: controla o que vai
+ser mostrado de acordo com a demanda do usuario / definição do host)
+views -> html, css, js, jsp
