@@ -12,6 +12,29 @@
     <div class="header">
         <h1>ApostaBet</h1>
     </div>
+    <div class="menu">
+        <table border=0>
+            <tr>
+                <td>
+                    <a href="/home">Inicio</a>
+                </td>
+                <td>
+                    <a href="/home?ac=login">login</a>
+                </td>
+                <td>
+                    <a href="/home?ac=jogos">Jogos</a></td>
+                <td>
+                    <a href="/home?ac=cassino">Cassino</a>
+                </td>
+                <td>
+                    <a href="/home?ac=promocoes">Promocoes</a>
+                </td>
+                <td>
+                    <a href="/home?ac=ajuda">Ajuda</a>
+                </td>
+            </tr>
+        </table>
+    </div>
     <div class="container">
         <fieldset>
             <legend>Login</legend>
@@ -21,6 +44,12 @@
                 <input type="password" placeholder="Senha" size="30" name="cpSenha"><br>
                 <input type="submit" value="Entrar">
             </form>
+            <%
+                String msg = (String) request.getAttribute("msg");
+            %>
+            <% if (msg != null){ %>
+                <div> <%= msg%></div>
+            <% } %>
         </fieldset>
     </div>
     <div class="footer">footer</div>

@@ -17,13 +17,23 @@
             <div class="menu">
                 <table border=0>
                     <tr>
-                        <div class="elementos">
-                            <td>Inicio</td>
-                            <td>Jogos</td>
-                            <td>Cassino</td>
-                            <td>Promocoes</td>
-                            <td>Ajuda</td>
-                        </div>
+                        <td>
+                            <a href="/home">Inicio</a>
+                        </td>
+                        <td>
+                            <a href="/home?ac=login">login</a>
+                        </td>
+                        <td>
+                            <a href="/home?ac=jogos">Jogos</a></td>
+                        <td>
+                            <a href="/home?ac=cassino">Cassino</a>
+                        </td>
+                        <td>
+                            <a href="/home?ac=promocoes">Promocoes</a>
+                        </td>
+                        <td>
+                            <a href="/home?ac=ajuda">Ajuda</a>
+                        </td>
                     </tr>
                 </table>
             </div>
