@@ -1,0 +1,9 @@
+br/edu/vianna/game/model/ETipoUsuario.class
+br/edu/vianna/game/controller/actions/ICommanderAction.class
+br/edu/vianna/game/controller/actions/impl/CallViewAction.class
+br/edu/vianna/game/controller/actions/impl/SairAction.class
+br/edu/vianna/game/controller/MasterController.class
+br/edu/vianna/game/controller/HomeController.class
+br/edu/vianna/game/controller/actions/impl/HomeAction.class
+br/edu/vianna/game/controller/actions/impl/VerificaLoginAction.class
+br/edu/vianna/game/model/Usuario.class
