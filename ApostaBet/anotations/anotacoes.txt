@@ -4,3 +4,10 @@ model -> classes
 controller -> servletsn (as regras de negocio ficam no controler ex: controla o que vai
 ser mostrado de acordo com a demanda do usuario / definição do host)
 views -> html, css, js, jsp
+
+
+
+JPA
+para utilizar o JPA é necessário implementação de bibliotecas que servem como provedores
+arquivo META-INF/persistence.xml é obrigatório e descreve uma ou mais unidades de persistencia
+

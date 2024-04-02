@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58757d05-012c-4fcf-93f5-53fe7c0782be" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/vianna/game/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/vianna/game/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viannabet-main/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../viannabet-main/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viannabet-main/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../viannabet-main/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viannabet-main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../viannabet-main/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viannabet-main/src/main/java/br/edu/vianna/game/controller/MasterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../viannabet-main/src/main/java/br/edu/vianna/game/controller/MasterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viannabet-main/src/main/java/br/edu/vianna/game/controller/actions/ICommanderAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../viannabet-main/src/main/java/br/edu/vianna/game/controller/actions/ICommanderAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viannabet-main/src/main/java/br/edu/vianna/game/controller/actions/impl/CallViewAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../viannabet-main/src/main/java/br/edu/vianna/game/controller/actions/impl/CallViewAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viannabet-main/src/main/java/br/edu/vianna/game/controller/actions/impl/HomeAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../viannabet-main/src/main/java/br/edu/vianna/game/controller/actions/impl/HomeAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viannabet-main/src/main/java/br/edu/vianna/game/controller/actions/impl/SairAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../viannabet-main/src/main/java/br/edu/vianna/game/controller/actions/impl/SairAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viannabet-main/src/main/java/br/edu/vianna/game/controller/actions/impl/VerificaLoginAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../viannabet-main/src/main/java/br/edu/vianna/game/controller/actions/impl/VerificaLoginAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viannabet-main/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../viannabet-main/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viannabet-main/src/main/webapp/pages/Error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../viannabet-main/src/main/webapp/pages/Error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viannabet-main/src/main/webapp/pages/ajuda.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../viannabet-main/src/main/webapp/pages/ajuda.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viannabet-main/target/classes/br/edu/vianna/game/controller/MasterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../viannabet-main/target/classes/br/edu/vianna/game/controller/MasterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viannabet-main/target/classes/br/edu/vianna/game/controller/actions/ICommanderAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../viannabet-main/target/classes/br/edu/vianna/game/controller/actions/ICommanderAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viannabet-main/target/classes/br/edu/vianna/game/controller/actions/impl/CallViewAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../viannabet-main/target/classes/br/edu/vianna/game/controller/actions/impl/CallViewAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viannabet-main/target/classes/br/edu/vianna/game/controller/actions/impl/HomeAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../viannabet-main/target/classes/br/edu/vianna/game/controller/actions/impl/HomeAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viannabet-main/target/classes/br/edu/vianna/game/controller/actions/impl/SairAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../viannabet-main/target/classes/br/edu/vianna/game/controller/actions/impl/SairAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viannabet-main/target/classes/br/edu/vianna/game/controller/actions/impl/VerificaLoginAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../viannabet-main/target/classes/br/edu/vianna/game/controller/actions/impl/VerificaLoginAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../viannabet-main/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../viannabet-main/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
