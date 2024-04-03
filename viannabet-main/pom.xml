@@ -25,14 +25,13 @@
         </dependency>
 
 
-        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<!--        Bibliotecas configuração JPA-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.33</version>
         </dependency>
 
-<!--        biblioteca de configuração JPA-->
         <dependency>
             <groupId>org.eclipse.persistence</groupId>
             <artifactId>org.eclipse.persistence.core</artifactId>
@@ -74,7 +73,7 @@
             <version>2.7.7</version>
             <scope>provided</scope>
         </dependency>
-
+        <!--   FIM das Bibliotecas configuração JPA-->
 
     </dependencies>
 

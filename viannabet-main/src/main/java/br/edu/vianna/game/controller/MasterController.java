@@ -1,10 +1,7 @@
 package br.edu.vianna.game.controller;
 
 import br.edu.vianna.game.controller.actions.ICommanderAction;
-import br.edu.vianna.game.controller.actions.impl.CallViewAction;
-import br.edu.vianna.game.controller.actions.impl.HomeAction;
-import br.edu.vianna.game.controller.actions.impl.SairAction;
-import br.edu.vianna.game.controller.actions.impl.VerificaLoginAction;
+import br.edu.vianna.game.controller.actions.impl.*;
 import br.edu.vianna.game.model.Usuario;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
