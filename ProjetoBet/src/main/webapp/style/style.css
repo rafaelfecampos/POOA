@@ -1,0 +1,52 @@
+body {
+    background-color: green;
+    color: gold;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: stretch;
+}
+
+.header, .footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.menu table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.menu table td:hover {
+
+    background-color: #f2f2f2;
+    color: #333;
+    border-radius: 10px;
+}
+
+.menu table tr td {
+    padding: 10px;
+    text-align: center;
+}
+
+.login_container{
+    margin: 50px auto;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
