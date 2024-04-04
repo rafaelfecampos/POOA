@@ -1,0 +1,17 @@
+br/edu/vianna/game/model/ETipoUsuario.class
+br/edu/vianna/game/controller/actions/impl/CallViewAction.class
+br/edu/vianna/game/model/User_.class
+br/edu/vianna/game/model/Jogo.class
+br/edu/vianna/game/controller/actions/impl/TestaBancoAction.class
+br/edu/vianna/game/controller/actions/impl/VerificaLoginAction.class
+br/edu/vianna/game/model/Usuario.class
+br/edu/vianna/game/model/ETipoResultado.class
+br/edu/vianna/game/model/User.class
+br/edu/vianna/game/model/Time_.class
+br/edu/vianna/game/controller/actions/ICommanderAction.class
+br/edu/vianna/game/controller/actions/impl/SairAction.class
+br/edu/vianna/game/controller/MasterController.class
+br/edu/vianna/game/controller/HomeController.class
+br/edu/vianna/game/controller/actions/impl/HomeAction.class
+br/edu/vianna/game/model/Time.class
+br/edu/vianna/game/model/Jogo_.class
