@@ -20,6 +20,7 @@ public class Usuario {
     public Usuario(String login, String senha) {
         this.login = login;
         this.senha = senha;
+        nome = (login.equals("admin"))? "Administrador" : "Usuário Apostador";
     }
 
     public String getNome() {
@@ -71,6 +72,6 @@ public class Usuario {
     }
 
     public boolean ehValido() {
-        return login.equals("admin") && senha.equals("123");
+        return (login.equals("admin") && senha.equals("123")) || (login.equals("user") && senha.equals("123"));
     }
 }

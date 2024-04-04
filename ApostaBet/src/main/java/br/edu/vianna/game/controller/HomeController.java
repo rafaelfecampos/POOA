@@ -31,7 +31,7 @@ public class HomeController extends HttpServlet {
         }else if (ac.equals("promocoes")){
             rd = req.getRequestDispatcher("home.jsp");
         }else if (ac.equals("ajuda")){
-            rd = req.getRequestDispatcher("home.jsp");
+            rd = req.getRequestDispatcher("ajuda.jsp");
         }else if (ac.equals("verify")){
             Usuario user = new Usuario(req.getParameter("cpLogin"),req.getParameter("cpSenha"));
 
@@ -39,6 +39,7 @@ public class HomeController extends HttpServlet {
 //            String senha = req.getParameter("cpSenha");
 
             if (user.ehValido()){
+                req.getSession().setAttribute("user", user);
                 rd = req.getRequestDispatcher("homeLogado.jsp");
             }else{
                 req.setAttribute("msg", "Login ou senha incorreto!");
