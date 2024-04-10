@@ -1,5 +1,5 @@
 
-<%@page import="br.edu.vianna.game.model.Usuario" %>
+<%@page import="br.edu.vianna.game.model.User" %>
 
 <% Usuario u = (Usuario)session.getAttribute("user");  %>
 

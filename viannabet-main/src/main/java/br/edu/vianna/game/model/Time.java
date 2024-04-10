@@ -13,23 +13,25 @@ public class Time {
     private int id;
     @Column(length = 20, nullable = false)
     private String nome;
-
     @Temporal(TemporalType.DATE)
     @Column(nullable = true)
     private Date dataFundacao;
+
     @OneToMany(mappedBy = "time1")
     private List<Jogo> jogosComoTime1;
-    @OneToMany(mappedBy = "time2")
 
+    @OneToMany(mappedBy = "time2")
     private List<Jogo> jogosComoTime2;
 
     public Time() {
     }
 
-    public Time(int id, String nome, Date dataFundacao) {
+    public Time(int id, String nome, Date dataFundacao, List<Jogo> jogosComoTime1, List<Jogo> jogosComoTime2) {
         this.id = id;
         this.nome = nome;
         this.dataFundacao = dataFundacao;
+        this.jogosComoTime1 = jogosComoTime1;
+        this.jogosComoTime2 = jogosComoTime2;
     }
 
     public int getId() {
@@ -54,5 +56,21 @@ public class Time {
 
     public void setDataFundacao(Date dataFundacao) {
         this.dataFundacao = dataFundacao;
+    }
+
+    public List<Jogo> getJogosComoTime1() {
+        return jogosComoTime1;
+    }
+
+    public void setJogosComoTime1(List<Jogo> jogosComoTime1) {
+        this.jogosComoTime1 = jogosComoTime1;
+    }
+
+    public List<Jogo> getJogosComoTime2() {
+        return jogosComoTime2;
+    }
+
+    public void setJogosComoTime2(List<Jogo> jogosComoTime2) {
+        this.jogosComoTime2 = jogosComoTime2;
     }
 }

@@ -26,6 +26,8 @@ public class MasterController extends HttpServlet {
         comandos.put("verify", new VerificaLoginAction());
         comandos.put("logout", new SairAction());
         comandos.put("testaBanco", new TestaBancoAction());
+        comandos.put("cadUser", new CallUserView());
+        comandos.put("saveUser", new CallSaveUserAction());
     }
 
     private void resposta(HttpServletRequest req, HttpServletResponse resp) {

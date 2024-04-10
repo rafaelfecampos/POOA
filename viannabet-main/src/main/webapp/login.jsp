@@ -79,6 +79,8 @@
                       Senha <input type="password" name="cpSenha">
 
                       <button>OK</button>
+                      <br>
+                      <%= (String) request.getAttribute("msg") %>
                     </form>
 
                    <%

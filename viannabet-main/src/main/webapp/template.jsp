@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<%@page import="br.edu.vianna.game.model.Usuario" %>
+<%@page import="br.edu.vianna.game.model.User" %>
 
 <html lang="en"> 
   <head> 
@@ -30,7 +30,7 @@
         <div class="row"> 
           <div id="logo"></div>
 
-          <% Usuario u = (Usuario)session.getAttribute("user");  %>
+          <% User u = (User)session.getAttribute("user");  %>
 
           <nav> 
             <div id="hmenu"> 
