@@ -1,6 +1,7 @@
 package br.edu.vianna.game.model;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "USUARIO")
@@ -23,10 +24,20 @@ public class User {
     private ETipoUsuario tipo;
     private double saldo;
 
+    @OneToMany(mappedBy = "apostador")
+    private List<Aposta> minhasApostas;
+
     public User() {
+        this.nome = "";
+        this.email = "";
+        this.login = "";
     }
 
+<<<<<<< HEAD
     public User(int id, String nome, String login, String senha, String email, ETipoUsuario tipo, double saldo) {
+=======
+    public User(int id, String nome, String login, String senha, String email, ETipoUsuario tipo, double saldo, List<Aposta> minhasApostas) {
+>>>>>>> a78fc261c500989f68622a10a2298390ed035014
         this.id = id;
         this.nome = nome;
         this.login = login;
@@ -34,6 +45,7 @@ public class User {
         this.email = email;
         this.tipo = tipo;
         this.saldo = saldo;
+        this.minhasApostas = minhasApostas;
     }
 
     public int getId() {
@@ -88,6 +100,24 @@ public class User {
         return saldo;
     }
 
+<<<<<<< HEAD
 
 
+=======
+    public List<Aposta> getMinhasApostas() {
+        return minhasApostas;
+    }
+
+    public void depositar(double valor){
+        if (valor >0 ){
+            saldo += valor;
+        }
+    }
+
+    public void sacar(double valor){
+        if (valor >0 && valor <= saldo ){
+            saldo -= valor;
+        }
+    }
+>>>>>>> a78fc261c500989f68622a10a2298390ed035014
 }

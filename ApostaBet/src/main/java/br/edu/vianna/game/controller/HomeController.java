@@ -30,11 +30,12 @@ public class HomeController extends HttpServlet {
         }else if (ac.equals("promocoes")){
             rd = req.getRequestDispatcher("home.jsp");
         }else if (ac.equals("ajuda")){
-            rd = req.getRequestDispatcher("ajuda.jsp");
+            rd = req.getRequestDispatcher("home.jsp");
         }else if (ac.equals("verify")){
             String login = req.getParameter("cpLogin");
             String senha = req.getParameter("cpSenha");
 
+<<<<<<< HEAD
 
 //            String login = req.getParameter("cpLogin");
 //            String senha = req.getParameter("cpSenha");
@@ -44,6 +45,9 @@ public class HomeController extends HttpServlet {
 
             if (login.equals("admin") && senha.equals("123")){
 
+=======
+            if (login.equals("admin") && senha.equals("123")){
+>>>>>>> a78fc261c500989f68622a10a2298390ed035014
                 rd = req.getRequestDispatcher("homeLogado.jsp");
             }else{
                 req.setAttribute("msg", "Login ou senha incorreto!");

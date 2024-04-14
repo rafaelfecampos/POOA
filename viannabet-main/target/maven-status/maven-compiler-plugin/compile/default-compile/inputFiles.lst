@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /home/professor/Documentos/Daves/code/viannabet/src/main/java/br/edu/vianna/game/controller/actions/impl/TestaBancoAction.java
 /home/professor/Documentos/Daves/code/viannabet/src/main/java/br/edu/vianna/game/controller/MasterController.java
 /home/professor/Documentos/Daves/code/viannabet/src/main/java/br/edu/vianna/game/controller/actions/impl/VerificaLoginAction.java
@@ -12,3 +13,27 @@
 /home/professor/Documentos/Daves/code/viannabet/src/main/java/br/edu/vianna/game/controller/actions/impl/SairAction.java
 /home/professor/Documentos/Daves/code/viannabet/src/main/java/br/edu/vianna/game/model/ETipoResultado.java
 /home/professor/Documentos/Daves/code/viannabet/src/main/java/br/edu/vianna/game/model/User.java
+=======
+/home/aluno/Área de Trabalho/Rafael/POOA/viannabet-main/src/main/java/br/edu/vianna/game/model/dao/UserDAO.java
+/home/aluno/Área de Trabalho/Rafael/POOA/viannabet-main/src/main/java/br/edu/vianna/game/controller/actions/impl/HomeAction.java
+/home/aluno/Área de Trabalho/Rafael/POOA/viannabet-main/src/main/java/br/edu/vianna/game/controller/actions/impl/VerificaLoginAction.java
+/home/aluno/Área de Trabalho/Rafael/POOA/viannabet-main/src/main/java/br/edu/vianna/game/model/Jogo.java
+/home/aluno/Área de Trabalho/Rafael/POOA/viannabet-main/src/main/java/br/edu/vianna/game/controller/actions/impl/SairAction.java
+/home/aluno/Área de Trabalho/Rafael/POOA/viannabet-main/src/main/java/br/edu/vianna/game/controller/actions/impl/TestaBancoAction.java
+/home/aluno/Área de Trabalho/Rafael/POOA/viannabet-main/src/main/java/br/edu/vianna/game/model/Usuario.java
+/home/aluno/Área de Trabalho/Rafael/POOA/viannabet-main/src/main/java/br/edu/vianna/game/controller/HomeController.java
+/home/aluno/Área de Trabalho/Rafael/POOA/viannabet-main/src/main/java/br/edu/vianna/game/controller/actions/impl/CallUserView.java
+/home/aluno/Área de Trabalho/Rafael/POOA/viannabet-main/src/main/java/br/edu/vianna/game/model/User.java
+/home/aluno/Área de Trabalho/Rafael/POOA/viannabet-main/src/main/java/br/edu/vianna/game/model/dao/GenericDAO.java
+/home/aluno/Área de Trabalho/Rafael/POOA/viannabet-main/src/main/java/br/edu/vianna/game/controller/actions/ICommanderAction.java
+/home/aluno/Área de Trabalho/Rafael/POOA/viannabet-main/src/main/java/br/edu/vianna/game/model/dao/impl/UserDAO.java
+/home/aluno/Área de Trabalho/Rafael/POOA/viannabet-main/src/main/java/br/edu/vianna/game/model/ETipoResultado.java
+/home/aluno/Área de Trabalho/Rafael/POOA/viannabet-main/src/main/java/br/edu/vianna/game/model/Aposta.java
+/home/aluno/Área de Trabalho/Rafael/POOA/viannabet-main/src/main/java/br/edu/vianna/game/model/ETipoUsuario.java
+/home/aluno/Área de Trabalho/Rafael/POOA/viannabet-main/src/main/java/br/edu/vianna/game/controller/actions/impl/CallSaveUserAction.java
+/home/aluno/Área de Trabalho/Rafael/POOA/viannabet-main/src/main/java/br/edu/vianna/game/model/Time.java
+/home/aluno/Área de Trabalho/Rafael/POOA/viannabet-main/src/main/java/br/edu/vianna/game/controller/MasterController.java
+/home/aluno/Área de Trabalho/Rafael/POOA/viannabet-main/src/main/java/br/edu/vianna/game/model/dao/GenericsDAO.java
+/home/aluno/Área de Trabalho/Rafael/POOA/viannabet-main/src/main/java/br/edu/vianna/game/controller/actions/impl/CallErrorPageAction.java
+/home/aluno/Área de Trabalho/Rafael/POOA/viannabet-main/src/main/java/br/edu/vianna/game/controller/actions/impl/CallViewAction.java
+>>>>>>> a78fc261c500989f68622a10a2298390ed035014

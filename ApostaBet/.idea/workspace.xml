@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="58757d05-012c-4fcf-93f5-53fe7c0782be" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -17,6 +18,9 @@
 =======
     <list default="true" id="58757d05-012c-4fcf-93f5-53fe7c0782be" name="Changes" comment="" />
 >>>>>>> 6c7359e78131351351a24dedf0a18931bed587cb
+=======
+    <list default="true" id="58757d05-012c-4fcf-93f5-53fe7c0782be" name="Changes" comment="" />
+>>>>>>> a78fc261c500989f68622a10a2298390ed035014
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,9 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
         <option value="Class" />
         <option value="Enum" />
-        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -82,7 +86,6 @@
       <workItem from="1710783584061" duration="1216000" />
       <workItem from="1710784818656" duration="188000" />
       <workItem from="1710785189935" duration="4608000" />
-      <workItem from="1710855418094" duration="3518000" />
     </task>
     <servers />
   </component>
