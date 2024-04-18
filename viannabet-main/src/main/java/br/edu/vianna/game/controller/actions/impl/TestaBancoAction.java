@@ -22,15 +22,6 @@ public class TestaBancoAction implements br.edu.vianna.game.controller.actions.I
 
     @Override
     public void executar(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-<<<<<<< HEAD
-
-        EntityManagerFactory emf = Persistence
-                .createEntityManagerFactory("bet_PU");
-
-        EntityManager em = emf.createEntityManager();
-
-        resp.getWriter().println(em.getMetamodel().toString());
-=======
 
 //        EntityManagerFactory emf = Persistence
 //                .createEntityManagerFactory("bet_PU");
@@ -47,7 +38,6 @@ public class TestaBancoAction implements br.edu.vianna.game.controller.actions.I
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
->>>>>>> a78fc261c500989f68622a10a2298390ed035014
 
 
     }

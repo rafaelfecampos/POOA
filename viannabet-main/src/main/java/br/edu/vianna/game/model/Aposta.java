@@ -16,11 +16,6 @@ public class Aposta {
     @Temporal(TemporalType.TIMESTAMP)
     @Column(nullable = false)
     private Date dataAposta;
-<<<<<<< HEAD
-    private User apostador;
-    private Jogo jogo;
-
-=======
 
     @ManyToOne
     @JoinColumn(name = "id_user")
@@ -89,5 +84,4 @@ public class Aposta {
     public void setJogo(Jogo jogo) {
         this.jogo = jogo;
     }
->>>>>>> a78fc261c500989f68622a10a2298390ed035014
 }

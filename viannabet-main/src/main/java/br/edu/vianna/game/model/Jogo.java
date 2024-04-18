@@ -28,12 +28,6 @@ public class Jogo {
     @JoinColumn(name = "id_time2")
     private Time time2;
 
-<<<<<<< HEAD
-    public Jogo() {
-    }
-
-    public Jogo(int id, Date dataJogo, double oddsTime1, double oddsTime2, double oddsEmpate, int golsTime1, int golsTime2, ETipoResultado resultado, Time time1, Time time2) {
-=======
     @OneToMany(mappedBy = "jogo")
     private List<Aposta> apostas;
 
@@ -41,7 +35,6 @@ public class Jogo {
     }
 
     public Jogo(int id, Date dataJogo, double oddsTime1, double oddsTime2, double oddsEmpate, int golsTime1, int golsTime2, ETipoResultado resultado, Time time1, Time time2, List<Aposta> apostas) {
->>>>>>> a78fc261c500989f68622a10a2298390ed035014
         this.id = id;
         this.dataJogo = dataJogo;
         this.oddsTime1 = oddsTime1;
@@ -52,10 +45,7 @@ public class Jogo {
         this.resultado = resultado;
         this.time1 = time1;
         this.time2 = time2;
-<<<<<<< HEAD
-=======
         this.apostas = apostas;
->>>>>>> a78fc261c500989f68622a10a2298390ed035014
     }
 
     public int getId() {
@@ -137,8 +127,6 @@ public class Jogo {
     public void setTime2(Time time2) {
         this.time2 = time2;
     }
-<<<<<<< HEAD
-=======
 
     public List<Aposta> getApostas() {
         return apostas;
@@ -147,5 +135,4 @@ public class Jogo {
     public void setApostas(List<Aposta> apostas) {
         this.apostas = apostas;
     }
->>>>>>> a78fc261c500989f68622a10a2298390ed035014
 }

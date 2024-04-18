@@ -7,11 +7,7 @@ import javax.persistence.metamodel.ListAttribute;
 import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
 
-<<<<<<< HEAD
-@Generated(value="org.eclipse.persistence.internal.jpa.modelgen.CanonicalModelProcessor", date="2024-04-08T17:07:21", comments="EclipseLink-2.7.7.v20200504-rNA")
-=======
-@Generated(value="org.eclipse.persistence.internal.jpa.modelgen.CanonicalModelProcessor", date="2024-04-10T20:14:14", comments="EclipseLink-2.7.7.v20200504-rNA")
->>>>>>> a78fc261c500989f68622a10a2298390ed035014
+@Generated(value="org.eclipse.persistence.internal.jpa.modelgen.CanonicalModelProcessor", date="2024-04-17T19:38:40", comments="EclipseLink-2.7.7.v20200504-rNA")
 @StaticMetamodel(User.class)
 public class User_ { 
 

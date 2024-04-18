@@ -28,16 +28,12 @@ public class User {
     private List<Aposta> minhasApostas;
 
     public User() {
-        this.nome = "";
-        this.email = "";
-        this.login = "";
+        nome = "";
+        login = "";
+        email = "";
     }
 
-<<<<<<< HEAD
-    public User(int id, String nome, String login, String senha, String email, ETipoUsuario tipo, double saldo) {
-=======
     public User(int id, String nome, String login, String senha, String email, ETipoUsuario tipo, double saldo, List<Aposta> minhasApostas) {
->>>>>>> a78fc261c500989f68622a10a2298390ed035014
         this.id = id;
         this.nome = nome;
         this.login = login;
@@ -46,6 +42,13 @@ public class User {
         this.tipo = tipo;
         this.saldo = saldo;
         this.minhasApostas = minhasApostas;
+    }
+
+    public boolean isAdmin(){
+        return tipo == ETipoUsuario.ADMIN;
+    }
+    public boolean isApostador(){
+        return tipo == ETipoUsuario.APOSTADOR;
     }
 
     public int getId() {
@@ -100,10 +103,6 @@ public class User {
         return saldo;
     }
 
-<<<<<<< HEAD
-
-
-=======
     public List<Aposta> getMinhasApostas() {
         return minhasApostas;
     }
@@ -119,5 +118,4 @@ public class User {
             saldo -= valor;
         }
     }
->>>>>>> a78fc261c500989f68622a10a2298390ed035014
 }

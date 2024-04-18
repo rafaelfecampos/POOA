@@ -16,7 +16,8 @@ public class CallErrorPageAction implements ICommanderAction {
 
     @Override
     public void executar(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
         RequestDispatcher rd = req.getRequestDispatcher("template.jsp?pg=Error");
-        rd.forward(req,resp);
+        rd.forward(req, resp);
     }
 }

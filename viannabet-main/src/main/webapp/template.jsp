@@ -37,7 +37,27 @@
               <ul> 
                 <li> 
                   <a href="/master">Home</a>
-                </li>  
+                </li>
+                <% if (u != null && u.isAdmin() ){ %>
+                    <li>
+                       <a href="/master">Jogos</a>
+                    </li>
+                    <li>
+                       <a href="/master">Resultados</a>
+                    </li>
+                    <li>
+                       <a href="/master">Ganhadores</a>
+                    </li>
+                <% }%>
+                <% if (u != null && u.isApostador()){ %>
+                    <li>
+                       <a href="/master">Jogos</a>
+                    </li>
+                    <li>
+                       <a href="/master">Resultado</a>
+                    </li>
+
+                <% }%>
                 <li>
                 <% if (u == null){ %>
                      <a href="/master?ac=login">Login</a>
@@ -47,12 +67,9 @@
                 </li>
                 <% if (u == null){ %>
                      <li>
-                       <a href="/master?ac=equipe">Cadastre-se</a>
+                       <a href="/master?ac=cadUser">Cadastre-se</a>
                      </li>
                  <% } %>
-                 <li>
-                   <a href="/master?ac=ajuda">Ajuda</a>
-                 </li>
               </ul> 
             </div> 
           </nav>  

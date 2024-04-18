@@ -1,0 +1,13 @@
+- colocar Inicio/Ajuda na mesma barra do header
+- na pagina inicio vai ter um formulario de login/cadastro
+- 
+
+
+
+
+- pagina cadastro: tipos de plano(plano mensal, semestral e anual)(plano com as aulas em grupo e sem)(plano com consultas e sem consultas);
+- página inicial: formulario de login/cadastro, foto da academia, texto sobre a academia
+- página ajuda: contato da academia, formulário pra mandar email
+- pagina consulta: formulário para marcar consulta com o profissinal desejado nos horários disponiveis
+- página ficha: contem a ficha do usuario (treinos, dietas e instruções personalizadas)
+-
