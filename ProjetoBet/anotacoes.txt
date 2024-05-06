@@ -1,0 +1,44 @@
+Servlet:
+-uma class que processa requisições e respostas dinâmicamente;
+-funciona como um pequeno servidor que recebe chamadas de diversos clientes;
+-são classes hospedadadas num servidor que respondem a requisições HTTP;
+-mapear servlets via annotatios:
+	->@WebServlet: usada ara registrar um servlet em um container;
+	->atributos
+		*name: nome da servlet;
+		*description: descrição da servlet;
+		*value: URL de acesso a servlet(padrao);
+		*urlPattern: mesmo proposito de value, porem utilizado quando mais de uma url é especificada;
+		*loadOnStartup: carrega a servlet na inicialização do container;
+
+-Métodos:
+	->service: não precisa ser sobrescrito e é acionado quando as solicitações chegam;
+	->doGet: é chamado pelo service() quando solicitações do tipo GET são recebidas;
+	->doPost: é chamado pelo service() quando solicitações do tipo POST são recebidas;
+	->init: inicializa o servlet
+
+-Para processar uma requisição precida do método doGet, doPost e de escrever um método de processamento;
+
+-Ciclo de vida do servlet:
+	->Container recebe solicitação;
+	->Servlet existe? se não, o container instancia o servlet e o inicializa com o método init();
+	->O container invoca o método service() do servlet;
+	->Requisição é enviada para o método service() do cliente, que invoca o metodo doPost() ou doGet();
+	->É retornado ao cliente a resposta.
+
+-Existem duas classes cruciais para o tratamento de requisições através de servlets:
+	->HttpServletRequest: representa uma requisição e contem as informações do cliente solicitante (IP do cliente, cookies, header do http);
+		*String getParamenter(String name): Retorna PARÂMENTROS de solicitação de campos de um formulário;
+		*String getRemoteAddress(): retorna o endereço IP da máquina cliente;
+	->HttpServletResponse: prepara a resposta para o cliente (adiciona novos cookies, adiciona nova entrada no cabeçalho HTTP, redirecionada uma requisição para tratamento por outro recurso);
+		*RequestDispatcher getRequestDispatcher(String url): cria um "dispatcher" para o recurso url, com isso é possível encaminhas a requisição utilizando o método forward() da classe RequestDispatcher;
+		*HttpSession getSession(): retorna uma referência para a sessão associada à requisção ou cria uma nova, se não houver uma antes criada;
+
+JSP:
+-adiciona linhas de código java no codigo html da page;
+-deve está entre <% %>;
+-para mostrar alguma informação em java utiliza-se <%= %>
+-tags:
+	->Declarações: usadas entre <%! %>, deve ser finalizada por ";" ;
+	->Expressões: o seu conteúdo é mostrado no código html da página, utilizada entre <%= %>;
+	->Scriptlets: permitem que seja escrito trechos de códido em java na página, usada entre <% %>;

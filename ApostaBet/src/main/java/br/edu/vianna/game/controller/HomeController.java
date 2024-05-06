@@ -35,7 +35,19 @@ public class HomeController extends HttpServlet {
             String login = req.getParameter("cpLogin");
             String senha = req.getParameter("cpSenha");
 
+<<<<<<< HEAD
+
+//            String login = req.getParameter("cpLogin");
+//            String senha = req.getParameter("cpSenha");
+
+            if (user.ehValido()){
+                req.getSession().setAttribute("user", user);
+
             if (login.equals("admin") && senha.equals("123")){
+
+=======
+            if (login.equals("admin") && senha.equals("123")){
+>>>>>>> a78fc261c500989f68622a10a2298390ed035014
                 rd = req.getRequestDispatcher("homeLogado.jsp");
             }else{
                 req.setAttribute("msg", "Login ou senha incorreto!");

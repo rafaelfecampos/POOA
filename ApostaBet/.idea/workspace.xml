@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <list default="true" id="58757d05-012c-4fcf-93f5-53fe7c0782be" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/vianna/game/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/vianna/game/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/vianna/game/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/vianna/game/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/jogos.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/jogos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/login.css" afterDir="false" />
+    </list>
+=======
     <list default="true" id="58757d05-012c-4fcf-93f5-53fe7c0782be" name="Changes" comment="" />
+>>>>>>> 6c7359e78131351351a24dedf0a18931bed587cb
+=======
+    <list default="true" id="58757d05-012c-4fcf-93f5-53fe7c0782be" name="Changes" comment="" />
+>>>>>>> a78fc261c500989f68622a10a2298390ed035014
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

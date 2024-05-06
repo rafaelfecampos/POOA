@@ -3,6 +3,7 @@
 
 <%@page import="br.edu.vianna.game.model.User" %>
 
+<<<<<<< HEAD
 <h1>Bem vindo ${ sessionScope.user.nome }</h1>
 <div class="tableJogos">
 <table>
@@ -62,4 +63,7 @@
 <div class="card hide">
     <h1>TESTANDO CARD</h1>
 </div>
+=======
+<% User u = (User)session.getAttribute("user");  %>
+>>>>>>> b43f3b411c7276a1a73634fa54007629fa79aeb3
 

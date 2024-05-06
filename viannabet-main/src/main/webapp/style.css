@@ -1251,6 +1251,7 @@ input.dark[type="submit"],input.dark[type="button"], a.button.dark {
 .tableJogos table td{
 	border-bottom: solid 1px #675f5f;
 
+<<<<<<< HEAD
 }
 
 .card{
@@ -1266,3 +1267,6 @@ input.dark[type="submit"],input.dark[type="button"], a.button.dark {
     display: none;
 }
 
+=======
+}
+>>>>>>> b43f3b411c7276a1a73634fa54007629fa79aeb3
