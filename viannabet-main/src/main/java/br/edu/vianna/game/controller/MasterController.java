@@ -25,8 +25,8 @@ public class MasterController extends HttpServlet {
         comandos.put("ajuda", new CallViewAction());
         comandos.put("verify", new VerificaLoginAction());
         comandos.put("logout", new SairAction());
-        comandos.put("testaBanco", new TestaBancoAction());
-        comandos.put("cadUser", new CallUserView());
+//        comandos.put("testaBanco", new TestaBancoAction());
+        comandos.put("cadUser", new CallUserViewAction());
         comandos.put("saveUser", new CallSaveUserAction());
     }
 
@@ -41,9 +41,7 @@ public class MasterController extends HttpServlet {
                 comandos.get(ac).executar(req, resp);
             }
 
-        } catch (ServletException e) {
-            throw new RuntimeException(e);
-        } catch (IOException e) {
+        } catch (Exception e) {
             throw new RuntimeException(e);
         }
 

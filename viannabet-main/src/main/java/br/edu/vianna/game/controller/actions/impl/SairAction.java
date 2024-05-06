@@ -13,7 +13,7 @@ public class SairAction implements br.edu.vianna.game.controller.actions.IComman
     }
 
     @Override
-    public void executar(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    public void executar(HttpServletRequest req, HttpServletResponse resp) throws Exception {
         req.getSession().invalidate();
         new HomeAction().executar(req, resp);
     }

@@ -28,9 +28,9 @@ public class User {
     private List<Aposta> minhasApostas;
 
     public User() {
-        this.nome = "";
-        this.email = "";
-        this.login = "";
+        nome = "";
+        login = "";
+        email = "";
     }
 
     public User(int id, String nome, String login, String senha, String email, ETipoUsuario tipo, double saldo, List<Aposta> minhasApostas) {
@@ -42,6 +42,13 @@ public class User {
         this.tipo = tipo;
         this.saldo = saldo;
         this.minhasApostas = minhasApostas;
+    }
+
+    public boolean isAdmin(){
+        return tipo == ETipoUsuario.ADMIN;
+    }
+    public boolean isApostador(){
+        return tipo == ETipoUsuario.APOSTADOR;
     }
 
     public int getId() {

@@ -1,0 +1,56 @@
+body {
+    background-color: green;
+    color: gold;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: stretch;
+}
+
+.header, .footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.menu table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.menu table td:hover {
+
+    background-color: #f2f2f2;
+    color: #333;
+    border-radius: 10px;
+}
+
+.menu table tr td {
+    padding: 10px;
+    text-align: center;
+}
+
+a{
+    color: inherit;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}

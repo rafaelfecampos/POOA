@@ -364,7 +364,7 @@ html {
 #header-wrapper {
 	position:relative;
 	width:100%;
-	height:400px;
+	height:150px;
 	background-color:#000000;
 	background-image:none;
 	background-repeat:repeat-all;
@@ -1233,5 +1233,36 @@ input.dark[type="submit"],input.dark[type="button"], a.button.dark {
 	-pie-background:linear-gradient(#343434,#0c0c0c);
 	background-image:-webkit-gradient(linear, 0 0%, 0 100%, from(#343434), to(#0c0c0c));
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#343434', endColorstr='#0c0c0c');
+}
+
+.tableJogos{
+	width: 100%;
+}
+
+.tableJogos table{
+	width: 100%;
+	text-align: center;
+}
+.tableJogos table thead{
+	font-weight: bold;
+	font-size: 14px;
+
+}
+.tableJogos table td{
+	border-bottom: solid 1px #675f5f;
+
+}
+
+.card{
+    background-color: #3b3b3b;
+    position: absolute;
+    top: 150px
+    margin: 0 auto;
+    height: 600px;
+    width: 600px;
+}
+
+.hide{
+    display: none;
 }
 
