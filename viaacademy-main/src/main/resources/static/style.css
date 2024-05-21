@@ -1,0 +1,11 @@
+
+
+form{
+    font-size: 24px;
+
+}
+
+form input{
+    font-size: 22px;
+    border: 1px solid red;
+}
